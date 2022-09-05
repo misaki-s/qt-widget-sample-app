@@ -86,7 +86,6 @@ void Widget::on_saveBtn_released()
     print(ui->lineEdit_NMAPSSelector_2->text().toStdString());
     print(ui->combo1->currentText().toStdString());
 
-
     // QtでJsonを扱うためのオブジェクトを作製し、キーとそれに対応する値を保存する
     // ネストするObjectを作る場合
     QJsonObject jsonCHild1;
@@ -100,7 +99,6 @@ void Widget::on_saveBtn_released()
     QJsonDocument saveDoc(jsonObj);
 
     QJsonParseError parseError;
-
 
     if (parseError.error != QJsonParseError::NoError) {
         qDebug() << "Error: invalid Json format";
@@ -133,6 +131,12 @@ void Widget::on_saveBtn_released()
 
 void Widget::on_executeBtn_released()
 {
+    // システムコマンド実行 例
+    print("------------------------");
+    print(system("cd"));
+    print("------------------------");
+    print(system("dir"));
+    print(system("calc"));
 
 }
 
