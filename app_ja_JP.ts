@@ -4,21 +4,29 @@
 <context>
     <name>Widget</name>
     <message>
-        <location filename="widget.cpp" line="46"/>
-        <location filename="widget.cpp" line="70"/>
-        <source>テキスト(*.txt)</source>
+        <location filename="widget.cpp" line="86"/>
+        <source>テキスト(*.*)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.cpp" line="49"/>
-        <location filename="widget.cpp" line="73"/>
+        <location filename="widget.cpp" line="89"/>
+        <location filename="widget.cpp" line="114"/>
         <source>ファイルを開く</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="widget.cpp" line="51"/>
-        <location filename="widget.cpp" line="75"/>
-        <source>すべて(*.*);;テキスト(*.txt);;ソース(*.h *.cpp)</source>
+        <location filename="widget.cpp" line="92"/>
+        <source>config.json</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="widget.cpp" line="111"/>
+        <source>テキスト(NMAPSselector.exe)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="widget.cpp" line="116"/>
+        <source>NMAPSselector.exe</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -65,8 +73,9 @@
     </message>
     <message>
         <location filename="widget.ui" line="158"/>
-        <source>Choose Preset</source>
-        <translation type="unfinished">プリセットを選択してください。</translation>
+        <source>choose Target</source>
+        <oldsource>Choose Preset</oldsource>
+        <translation type="unfinished">対象バージョンを選択してください。</translation>
     </message>
     <message>
         <location filename="widget.ui" line="206"/>
@@ -74,7 +83,7 @@
         <translation type="unfinished">保存</translation>
     </message>
     <message>
-        <location filename="widget.ui" line="271"/>
+        <location filename="widget.ui" line="258"/>
         <source>Execute</source>
         <translation type="unfinished">実行</translation>
     </message>
@@ -83,7 +92,7 @@
         <translation type="obsolete">あああ</translation>
     </message>
     <message>
-        <location filename="widget.ui" line="246"/>
+        <location filename="widget.ui" line="233"/>
         <source>AutoMation</source>
         <translation>自動化CLI</translation>
     </message>

@@ -19,6 +19,9 @@ public:
 private slots:
     void slot1();
     void slot2();
+    void on_saveBtn_released();
+
+    void on_executeBtn_released();
 
 private:
     Ui::Widget2 *ui;

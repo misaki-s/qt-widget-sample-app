@@ -155,7 +155,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Choose Preset</string>
+         <string>choose Target</string>
         </property>
        </widget>
       </item>
